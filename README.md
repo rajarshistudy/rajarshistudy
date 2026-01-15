@@ -19,6 +19,18 @@ I enjoy solving engineering problems that demand performance, reliability, and c
 
 ## Featured Projects
 
+**YOLOv8 Object Detection with TensorRT (Edge Deployment & Performance Profiling)**
+
+Built an end-to-end real-time object detection pipeline on NVIDIA Jetson Orin Nano, deploying a TensorRT-optimized YOLOv8 model with manual raw-output decoding and CUDA-based performance profiling.
+
+- TensorRT deployment with explicit bindings, async CUDA memory transfers, and raw output parsing
+- Debugged incorrect detections caused by coordinate-space mismatches and activation handling
+- Implemented a dedicated benchmarking pipeline with warmup frames and p50/p95 latency analysis
+- Achieved ~32 ms end-to-end latency (p95 < 34 ms) at 640×640 resolution on-device
+- Identified system bottlenecks via detailed CPU vs GPU latency breakdown (CPU-bound pipeline)
+
+---
+
 ### Real-Time Vehicle Telemetry System (Raspberry Pi)
 A complete embedded telemetry platform for a competition vehicle.
 
