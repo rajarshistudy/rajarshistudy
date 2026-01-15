@@ -19,7 +19,7 @@ I enjoy solving engineering problems that demand performance, reliability, and c
 
 ## Featured Projects
 
-**YOLOv8 Object Detection with TensorRT (Edge Deployment & Performance Profiling)**
+### YOLOv8 Object Detection with TensorRT (Edge Deployment & Performance Profiling)
 
 Built an end-to-end real-time object detection pipeline on NVIDIA Jetson Orin Nano, deploying a TensorRT-optimized YOLOv8 model with manual raw-output decoding and CUDA-based performance profiling.
 
@@ -28,6 +28,9 @@ Built an end-to-end real-time object detection pipeline on NVIDIA Jetson Orin Na
 - Implemented a dedicated benchmarking pipeline with warmup frames and p50/p95 latency analysis
 - Achieved ~32 ms end-to-end latency (p95 < 34 ms) at 640×640 resolution on-device
 - Identified system bottlenecks via detailed CPU vs GPU latency breakdown (CPU-bound pipeline)
+
+**Tech Stack:** Python, TensorRT, CUDA, OpenCV, YOLOv8
+**Focus Areas:** Edge-AI, embedded inference, systems performance analysis
 
 ---
 
@@ -41,22 +44,22 @@ A complete embedded telemetry platform for a competition vehicle.
 
 ---
 
-### ARMv8 Prime-Splitting Algorithm (C - Assembly)
-Systems-level project focused on low-level program behavior.
-
-- Converted C logic into ARMv8 assembly  
-- Used GDB to inspect registers, memory, and stack frames  
-- Strengthened knowledge of pointers, calling conventions, and low-level execution  
-
----
-
 ### YOLOv8 Detection Model for Biological Research
 Machine learning applied to environmental science.
 
 - Trained YOLOv8 to detect adelgid on plant samples  
 - Built preprocessing and inference pipelines  
-- Applied ML to support scientific data collection and pattern recognition  
+- Applied ML to support scientific data collection and pattern recognition
 
+---
+
+### ARMv8 Prime-Splitting Algorithm (C - Assembly)
+Systems-level project focused on low-level program behavior.
+
+- Converted C logic into ARMv8 assembly  
+- Used GDB to inspect registers, memory, and stack frames  
+- Strengthened knowledge of pointers, calling conventions, and low-level execution
+ 
 ---
 
 ### Machine Learning Regression Model (From Scratch)
@@ -71,9 +74,9 @@ Implemented linear regression and gradient descent without ML libraries.
 ## Technical Skills
 
 **Languages:** Python, C, C++, Java, ARMv8 Assembly  
-**Machine Learning:** PyTorch, YOLOv8, CNNs, Regression models  
-**Embedded Systems:** Raspberry Pi, Linux, Sockets, Hardware Interfacing, GDB  
-**Systems Programming:** Data structures, Algorithms, Debugging, Process control  
+**Machine Learning:** PyTorch, YOLOv8, CNNs, TensorRT, CUDA, OpenCV, Regression models  
+**Embedded Systems:** Raspberry Pi, Linux, Sockets, Hardware Interfacing, GDB, Assembly
+**Systems Programming:** Data structures, Algorithms, Debugging, Process control, Performance Analysis 
 **Other Tools:** Node.js, WebSockets, HTML/CSS, Git, MATLAB, Verilog  
 
 ---
