@@ -30,6 +30,7 @@ Built an end-to-end real-time object detection pipeline on NVIDIA Jetson Orin Na
 - Identified system bottlenecks via detailed CPU vs GPU latency breakdown (CPU-bound pipeline)
 
 **Tech Stack:** Python, TensorRT, CUDA, OpenCV, YOLOv8
+
 **Focus Areas:** Edge-AI, embedded inference, systems performance analysis
 
 ---
