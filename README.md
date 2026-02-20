@@ -1,16 +1,19 @@
 # Hi, I'm Rajarshi Das
 
-**Machine Learning | Embedded Systems | Robotics | Systems Programming**
+**Machine Learning | Embedded Systems | Robotics**
 
 I’m a junior at UMass Amherst studying **Computer Engineering** and **Statistics & Data Science**, with a passion for building systems where intelligence, hardware, and autonomy intersect. My work spans **machine learning (YOLOv8, CNNs, regression)**, **embedded Linux systems (Raspberry Pi, ARMv8)**, and **real-time robotics software**.
 
 I enjoy solving engineering problems that demand performance, reliability, and creativity.
 
+My current project is related to building a small Language Model and deploying it on my Jeston Nano (Something like a personal assistant). Once I have created the initial model, I do plan to add RAG for a more practical application. 
+
 ---
 
 ## What I’m Excited About
 
-- Machine Learning & Computer Vision  
+- Machine Learning
+- Large Language Models  
 - Embedded Systems & Real-Time Computing  
 - Robotics, Autonomy, and Intelligent Systems  
 - Low-level programming, debugging, and system design  
